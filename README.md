@@ -31,6 +31,11 @@ or with bundler in your Gemfile:
 
 ### Usage
 
+Add the following to your application.js file:
+`//= require filterrific/filterrific-jquery`
+
+`$(document).on('turbolinks:load', Filterrific.init)`
+
 Make sure to go to the fantastic [Filterrific documentation](http://filterrific.clearcove.ca)
 to find out more!
 
