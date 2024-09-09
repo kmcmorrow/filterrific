@@ -153,6 +153,8 @@ Filterrific.observe_field = function(inputs_selector, frequency, callback) {
 Filterrific.init = function() {
   // Add change event handler to all Filterrific filter inputs.
   var filterrificForm = document.querySelector('#filterrific_filter');
+  if (filterrificForm === null) { return; }
+
   filterrificForm.querySelectorAll('input, textarea, select, textarea').forEach(input => {
     input.addEventListener('change', Filterrific.submitFilterForm)
   })
