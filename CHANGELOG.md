@@ -7,13 +7,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 Filterrific major versions match the Ruby on Rails major versions they work with.
 
-## [5.3.1] - Sep 12, 2024
+<<<<<<< HEAD
+## My changes
 
 * Fix issue where input.closest('html') may be null
-
-## [5.3.0] - Sep 09, 2024
-
 * Check if #filterrific-filter is on page when initializing
+
+## [5.2.6] - Feb 28, 2025
+
+* Explicitly require OpenStruct
+
+## [5.2.6] - Jan 24, 2025
+
+* Supports Rails 8
 
 ## [5.2.5] - Feb 12, 2023
 
